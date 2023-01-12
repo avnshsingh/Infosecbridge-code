@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  background-color: #fafafa;
+}
+.container {
+  width: 100%;
+  max-width: 428px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+/* class */
+.sub-container {
+  margin: 0 50px;
+}
+
+.logo-container {
+  height: 198px;
+  width: 198px;
+  margin: auto;
+}
+.logo-container img {
+  width: 100%;
+}
+
+.text-container p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.button-container #primary {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-container #secondary {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.border-line {
+  border-bottom: 2px solid #e70b89;
+  width: 45%;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.form-container {
+  margin: 0 50px;
+}
+.form-container form {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form input {
+  padding: 12px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.form-container .button {
+  background-color: #e70b89;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-container form p {
+  text-align: end;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.social-login {
+  height: 100%;
+  margin-top: 15px;
+}
+
+.social-login p {
+  text-align: center;
+  padding: 10px;
+  color: #e70b89;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-icons img {
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.footer-text p {
+  font-size: 12px;
+}
+
+#footer-primary {
+  color: black;
+}
+
+.footer-text-2 p {
+  font-size: 12px;
+}
+
+#footer-text-2-primary {
+  color: black;
+}
+
+#footer-text-2-secondary {
+  text-decoration: underline;
+  cursor: pointer;
+}
